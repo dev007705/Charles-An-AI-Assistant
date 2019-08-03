@@ -68,10 +68,6 @@ if __name__ == "__main__":
             strTime=datetime.datetime.now().strftime("%H:%M:%S")
             speak(f"Sir, the time is {strTime}")
 
-        elif 'kitna baja hai' in query:
-            strTime=datetime.datetime.now().strftime("%H:%M:%S")
-            speak(f"Sir, the time is {strTime}")
-
         elif 'who are you' in query:
             speak("I am Charles, an AI assistant developed by Devendra Kumar")
 
@@ -95,7 +91,7 @@ if __name__ == "__main__":
             results=webbrowser.open(query)
             speak("According to google")
 
-        elif 'pagal ho kya' in query:
+        elif 'are you mad?' in query:
             speak('I am not mad. I am the smartest assistant')
 
         elif 'news' in query:
